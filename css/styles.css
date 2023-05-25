@@ -27,7 +27,7 @@ body {
   color: var(--studio);
 }
 
-.spanf {
+.span-footer {
   color: #f4f4fd;
 }
 
@@ -35,7 +35,7 @@ body {
   list-style: none;
 }
 
-.main {
+.main-nav {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -43,10 +43,10 @@ body {
   color: #2e2f42;
 }
 
-.main:hover {
+.main-nav:hover {
   color: #404bbf;
 }
-.main:focus {
+.main-nav:focus {
   color: #404bbf;
 }
 
@@ -54,16 +54,16 @@ body {
   font-style: normal;
 }
 
-.mail {
+.contacts {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
-.mail:hover {
+.contacts:hover {
   color: #404bbf;
 }
-.mail:focus {
+.contacts:focus {
   color: #404bbf;
 }
 
@@ -81,24 +81,16 @@ body {
   letter-spacing: 0.02em;
   color: var(--studio);
 }
-.pstr {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--primary-text-color);
-}
 
-.section-one {
-  background-color: #2e2f42;
-}
-.esyb {
+.hero {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
 }
-.but {
+
+.button {
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -108,9 +100,21 @@ body {
   color: #ffffff;
   cursor: pointer;
 }
-.but:hover,
+
+.button:hover,
 :focus {
   background-color: #404bbf;
+}
+
+.paragraph-strategy {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.section-one {
+  background-color: #2e2f42;
 }
 
 .what-doing {
@@ -139,7 +143,7 @@ body {
   background-color: #ffffff;
 }
 
-.butsp {
+.but-nav-port {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -150,7 +154,7 @@ body {
   cursor: pointer;
 }
 
-.butsp:hover,
+.but-nav-port:hover,
 :focus {
   color: #ffffff;
   background-color: #404bbf;
@@ -164,7 +168,7 @@ body {
   color: var(--studio);
 }
 
-.papp {
+.Paragraph-app {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;

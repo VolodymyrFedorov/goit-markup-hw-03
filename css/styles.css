@@ -95,17 +95,25 @@ body {
   color: #2e2f42;
   display: block;
   display: flex;
+  gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24;
 }
 
-.main-nav:hover {
+.menu:hover {
   color: #404bbf;
 }
-.main-nav:focus {
+.menu:focus {
   color: #404bbf;
 }
 
 .adress {
   font-style: normal;
+}
+
+.address-list {
+  display: flex;
+  gap: 40px;
 }
 
 .contacts {

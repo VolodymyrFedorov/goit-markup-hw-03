@@ -171,10 +171,6 @@ body {
   color: #f4f4fd;
 }
 
-.our-fetures {
-  display: flex;
-}
-
 .strategy {
   font-weight: 500;
   font-size: 20px;
@@ -201,12 +197,38 @@ body {
 .section-one {
   background-color: #2e2f42;
   padding-top: 188px;
-  padding-bottom: 188;
+  padding-bottom: 188px;
+}
+
+.section-two {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.our-fetures {
+  display: flex;
+  gap: 24px;
+}
+
+.li-items {
+  width: calc((100% - 72px) / 4);
+}
+
+.h-li {
+  margin-bottom: 8px;
+}
+
+.section-three {
+  padding-bottom: 120px;
 }
 
 .what-we-do {
   display: flex;
-  justify-content: space-around;
+  gap: 24px;
+}
+
+.what-we-do-items {
+  width: calc((100% - 48px) / 3);
 }
 
 .what-doing {
@@ -216,6 +238,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--studio);
+  margin-bottom: 72px;
 }
 
 .section-four {

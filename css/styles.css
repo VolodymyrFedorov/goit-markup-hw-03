@@ -96,8 +96,6 @@ body {
   display: block;
   display: flex;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24;
 }
 
 .menu:hover {
@@ -107,7 +105,12 @@ body {
   color: #404bbf;
 }
 
-.adress {
+.main-nav {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.address {
   font-style: normal;
 }
 

@@ -52,6 +52,10 @@ body {
   display: flex;
 }
 
+.header-items {
+  display: flex;
+}
+
 .container {
   width: 1158px;
   margin: 0 auto;
@@ -83,7 +87,7 @@ body {
   color: #f4f4fd;
 }
 
-.list-nav {
+.menu {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;

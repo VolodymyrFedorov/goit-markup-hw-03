@@ -51,6 +51,11 @@ body {
   width: 1158px;
 }
 
+.header-nav {
+  display: flex;
+  justify-content: space-around;
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -75,6 +80,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  display: block;
   display: flex;
 }
 
@@ -104,6 +110,15 @@ body {
 
 .footer {
   background-color: #2e2f42;
+}
+.footer-paragraph {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
 
 .our-fetures {

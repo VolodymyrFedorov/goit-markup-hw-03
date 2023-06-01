@@ -5,6 +5,7 @@
   --logo-part: #4d5ae5;
   --studio: #2e2f42;
   --batnsp: #f4f4fd;
+  --border-buttons: #e7e9fc;
 }
 
 h1,
@@ -302,12 +303,19 @@ body {
   color: var(--logo-part);
   background-color: var(--batnsp);
   cursor: pointer;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border: 1px solid var(--border-buttons);
+  border-radius: 4px;
 }
 
 .but-nav-port:hover,
 :focus {
   color: #ffffff;
   background-color: #404bbf;
+  border: 1px solid transparent;
 }
 
 .app {
@@ -327,8 +335,16 @@ body {
 
 .button-list {
   display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
 }
 
 .our-product {
   display: flex;
+}
+
+.section-portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
 }

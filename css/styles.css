@@ -47,13 +47,21 @@ body {
   background-color: #ffffff;
 }
 
+.header {
+  border-bottom: 1px solid #e7e9fc;
+  display: flex;
+}
+
 .container {
   width: 1158px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .header-nav {
   display: flex;
-  justify-content: space-around;
+  align-items: center;
 }
 
 .logo {
@@ -64,6 +72,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--logo-part);
+  margin-right: 76px;
 }
 
 .span {

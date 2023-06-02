@@ -55,6 +55,7 @@ body {
 
 .header-items {
   display: flex;
+  align-items: center;
 }
 
 .container {
@@ -109,10 +110,12 @@ body {
 .main-nav {
   padding-top: 24px;
   padding-bottom: 24px;
+  display: inline-block;
 }
 
 .address {
   font-style: normal;
+  margin-left: auto;
 }
 
 .address-list {
@@ -330,8 +333,7 @@ body {
 
 .but-nav-port:hover,
 :focus {
-  color: #ffffff;
-  background-color: #404bbf;
+  color: #404bbf;
   border: 1px solid transparent;
 }
 

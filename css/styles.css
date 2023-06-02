@@ -120,6 +120,10 @@ body {
   gap: 40px;
 }
 
+.address-list:not(:last-child) {
+  margin-right: 40px;
+}
+
 .contacts {
   font-size: 16px;
   line-height: 1.5;

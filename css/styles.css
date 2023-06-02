@@ -214,7 +214,6 @@ button:focus {
 }
 
 .logo-footer {
-  display: inline-block;
   margin-bottom: 16px;
   color: #4d5ae5;
   font-family: "Raleway";
@@ -226,6 +225,7 @@ button:focus {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: inline-block;
 }
 
 .footer-paragraph {

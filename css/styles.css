@@ -176,24 +176,23 @@ body {
   margin-right: auto;
 }
 
-.button {
-  background-color: #4d5ae5;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-  cursor: pointer;
-  display: block;
-  min-width: 169px;
-  height: 56px;
-  border: none;
-  background-color: var(--logo-part);
+button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  width: 116px;
+  height: 48px;
+  background: #f4f4fd;
+  border: 1px solid #e7e9fc;
   border-radius: 4px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 
-.button:hover,
+button:hover,
 button:focus {
   background-color: #404bbf;
 }
@@ -360,9 +359,6 @@ button:focus {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: var(--logo-part);
-  background-color: var(--batnsp);
-  cursor: pointer;
   padding-top: 12px;
   padding-bottom: 12px;
   padding-left: 24px;
@@ -371,9 +367,12 @@ button:focus {
   border-radius: 4px;
 }
 
-.but-nav-port:hover,
-:focus {
-  color: #404bbf;
+.but-nav-port:hover {
+  color: #ffffff;
+  border: 1px solid transparent;
+}
+.but-nav-port:focus {
+  color: #ffffff;
   border: 1px solid transparent;
 }
 

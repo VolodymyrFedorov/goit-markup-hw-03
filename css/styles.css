@@ -133,6 +133,11 @@ body {
   color: #404bbf;
 }
 
+.contact {
+  display: flex;
+  gap: 40px;
+}
+
 .hero {
   max-width: 496px;
 }

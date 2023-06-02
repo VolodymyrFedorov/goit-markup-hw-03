@@ -100,17 +100,16 @@ body {
   gap: 40px;
 }
 
-.menu:hover {
-  color: #404bbf;
-}
-.menu:focus {
-  color: #404bbf;
-}
-
 .main-nav {
   padding-top: 24px;
   padding-bottom: 24px;
   display: inline-block;
+}
+.main-nav:hover {
+  color: #404bbf;
+}
+.main-nav:focus {
+  color: #404bbf;
 }
 
 .address {
@@ -158,6 +157,25 @@ body {
   max-width: 496px;
 }
 
+.button-hero {
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  background-color: var(--logo-part);
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .button {
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
@@ -176,7 +194,7 @@ body {
 }
 
 .button:hover,
-:focus {
+button:focus {
   background-color: #404bbf;
 }
 
@@ -188,6 +206,16 @@ body {
 .logo-footer {
   display: inline-block;
   margin-bottom: 16px;
+  color: #4d5ae5;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .footer-paragraph {
@@ -209,12 +237,24 @@ body {
   color: var(--studio);
 }
 
+.paragraph-strategy {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
 .hero {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .paragraph-team {

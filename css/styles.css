@@ -365,6 +365,7 @@ button:focus {
   padding-right: 24px;
   border: 1px solid var(--border-buttons);
   border-radius: 4px;
+  color: var(--logo-color);
 }
 
 .but-nav-port:hover {

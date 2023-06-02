@@ -117,10 +117,7 @@ body {
 
 .address-list {
   display: flex;
-}
-
-.address-list:not(:last-child) {
-  margin-right: 40px;
+  gap: 40px;
 }
 
 .contacts {
